@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: #00ff00;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+.hero {
+    background: linear-gradient(to right, #000, #003300);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.hero .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #00ff00;
+    background-color: transparent;
+    color: #00ff00;
+    cursor: pointer;
+}
+
+.section {
+    padding: 50px 20px;
+}
+
+.dark {
+    background-color: #111;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: #222;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+}
